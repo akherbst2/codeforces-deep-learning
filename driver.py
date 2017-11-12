@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import os
+import pickle
 import sys
 import urllib
 import urllib.request
@@ -19,21 +20,47 @@ def import_cf():
         print('invalid')
         sys.exit(1)
 
-    for i in range(1, num_pages + 1):
-        url = 'http://codeforces.com/problemset/page/{}'.format(i)
-        f = urllib.request.urlopen(url)
-        soup = BeautifulSoup(f, "lxml")
-        for pages in soup.findAll('a', attrs={'href': re.compile(r'/problemset/problem/[a-zA-Z0-9]*/[a-zA-Z]*')}):
-            try:
-                full_url = urllib.parse.urljoin(url, pages['href'])
-                print("URL: ", full_url)
-                split = full_url.split('/')
+    # for i in range(1, num_pages + 1):
+    i = 1
+    url = 'http://codeforces.com/problemset/page/{}'.format(i)
+    f = urllib.request.urlopen(url)
+    soup = BeautifulSoup(f, "lxml")
 
-                text_filename = '{}{}.txt'.format(split[-2], split[-1])
-                urllib.request.urlretrieve(
-                    full_url, text_path.format(text_filename))
-            except Exception as e:
-                print('invalid link: {}'.format(e))
+    problems = []
+
+    for pages in soup.findAll('a', attrs={'href': re.compile(r'/problemset/problem/[a-zA-Z0-9]*/[a-zA-Z]*')}):
+        try:
+            full_url = urllib.parse.urljoin(url, pages['href'])
+            print("URL: ", full_url)
+
+            page = urllib.request.urlopen(full_url)
+            page_soup = BeautifulSoup(page, "lxml")
+
+            new_problem = Problem()
+            new_problem.title = page_soup.find(attrs={'class': 'title'}).text
+            new_problem.time_limit = page_soup.find(
+                attrs={'class': 'time-limit'}).text.split('time limit per test')[1]
+            new_problem.memory_limit = page_soup.find(
+                attrs={'class': 'memory-limit'}).text.split('memory limit per test')[1]
+            new_problem.main_text = page_soup.find(
+                attrs={'class': 'header'}).next_sibling.text
+            new_problem.input_specification = page_soup.find(
+                attrs={'class': 'input-specification'}).text.split('Input')[1]
+            new_problem.output_specification = page_soup.find(
+                attrs={'class': 'output-specification'}).text.split('Output')[1]
+            print(new_problem.output_specification)
+            problems.append(new_problem)
+        except Exception as e:
+            print('invalid link: {}'.format(e))
+    with open('output.pkl', 'wb') as outfile:
+        pickle.dump(problems, outfile, protocol=pickle.HIGHEST_PROTOCOL)
+
+
+class Problem:
+
+    def __init__(self):
+        self.title = ''
+        self.time_limit = ''
 
 
 def main():
