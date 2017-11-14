@@ -48,9 +48,7 @@ def import_cf():
                 attrs={'class': 'input-specification'}).text.split('Input')[1]
             new_problem.output_specification = page_soup.find(
                 attrs={'class': 'output-specification'}).text.split('Output')[1]
-            new_problem.tags = new_problem.output_specification = page_soup.find(
-                attrs={'class': 'tag-box'}).text
-            print(new_problem.tags)
+            print(new_problem.output_specification)
             problems.append(new_problem)
         except Exception as e:
             print('invalid link: {}'.format(e))
@@ -63,13 +61,7 @@ class Problem:
     def __init__(self):
         self.title = ''
         self.time_limit = ''
-        self.memory_limit = ''
-        self.main_text = ''
-        self.input_specification = ''
-        self.output_specification = ''
 
-    def __str__(self):
-        return self.title
 
 def main():
     import_cf()
