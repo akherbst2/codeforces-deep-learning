@@ -1,0 +1,9 @@
+These problems encountered runtime errors during parsing.
+
+All of contest 524 (hidden, no content, I removed it)
+727 C
+730 B
+750 F
+788 D
+811 D
+837 G
