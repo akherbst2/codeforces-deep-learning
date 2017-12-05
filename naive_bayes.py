@@ -5,8 +5,8 @@ from sklearn.model_selection import KFold
 
 num_splits = 10
 def naive_bayes_classifier():
-    X,y = tfidf.get_tfidf_scores_and_labels_from_csv("words_all.csv")
-   
+    X,y,z = tfidf.get_tfidf_scores_and_labels_from_csv("words_all.csv")
+
     clf = MultinomialNB()
 
     kf = KFold(n_splits=num_splits)
@@ -30,7 +30,7 @@ def naive_bayes_classifier():
         test_num = 0
         for x in X_test:
             guess = clf.predict(x)
-            if guess == y[test_num]:
+            if guess in z[test_num]:
                 correct += 1
             else:
                 incorrect += 1
