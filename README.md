@@ -1,4 +1,4 @@
-# codeforces-scraper
+# Codeforces Learner
 
 Install dependencies:
 ```
