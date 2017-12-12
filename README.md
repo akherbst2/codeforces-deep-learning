@@ -26,21 +26,36 @@ Then to activate the python virtual environment, run
 ```
   $ activate python3.5
 ```
-(in bash shell)
+(or alternatively, in bash shell)
 ```
   $ source activate python3.5
 ```
-
-
-
-Install dependencies:
+If you would like to deactivate the virtual environment, run
 ```
-  $ pip install beautifulsoup4
+  $ deactivate
 ```
-To run,
+
+## Install dependencies:
+While your python virtual environment is activated, run
 ```
-  $ python scraper.py
+  $ pip install -r requirements
+```
+
+## Training the Neural Network
+To run, activate your python virtual environment and open jupyter notebook from an Anaconda shell.  Note that if you are running this through a laptop, the training runs significantly faster if your laptop is plugged into a power source.
+
+(in Anaconda shell)
+```
+  $ activate python3.5
+  $ jupyter notebook
 ```  
+This should open up a browser window for jupyter notebook.  Open up please_work.ipynb and step through every code block.
+
+## Running the Scraper
+This should not be necessary because we already have a database in our github repo.  However, if you want to download the latest Codeforces data, this is how you scrape the data.
+
+**NOTE: Running the scraper may be very disruptive towards Codeforces contests hosted on the website!! In order to not be a jerk, please check http://codeforces.com/contests/ to ensure that there is currently not a contest going on.  Also note that the start time listed on the website may not be in your time zone.  Click on the DATE itself (i.e. "Dec/12/2017 10:05UTC-5") to view when the contest has started in YOUR timezone.**
+
 This should download every html page to every problem on Codeforces to directory called
 "texts" in your current directory. Within "texts", the files will be organized in subdirectories based on the contest.
 
