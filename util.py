@@ -283,6 +283,31 @@ def writeTagFrequencies(csv_list):
         for tup in tups:
             file.write(str(tup) + "\n")
 
+#Outputs sorted list of tag frequencies to file. This one assumes the condensed csv form
+def writeTagFrequencies(csv_list):
+    tag_index = 1
+    num_problems_with_tags = 0
+
+    counts = Counter()
+    for problem in csv_list:
+        raw = problem[tag_index]
+        raw = ''.join([i if i.isalnum() or i == '-' or i == '/' else '' for i in raw])
+        tags = raw.split("/")
+
+        if len(raw) == 0: #Don't count problems that don't have any tags.
+            continue
+        num_problems_with_tags += 1
+        for tag in tags:
+            counts[tag] += 1
+    tups = []
+
+    for k,v in counts.items():
+        tups.append((v,k,v/num_problems_with_tags))
+    tups = reversed(sorted(tups))
+
+    with open("tag_frequencies.txt", 'w') as file:
+        for tup in tups:
+            file.write(str(tup) + "\n")
 
 
 """
@@ -305,8 +330,9 @@ if __name__ == '__main__':
     print(time.clock() - start_time, "seconds")
     """
 
-    csvLines = loadAllProblemsFromCSV("output_all.csv")
-    #writeTagFrequencies(csvLines)
-    writeWordFieldsWithTagGroups(csvLines)
+    #csvLines = loadAllProblemsFromCSV("output_all.csv")
+    csvLines = loadAllProblemsFromCSV("words_all_no_repeats.csv")
+    writeTagFrequencies(csvLines)
+    #writeWordFieldsWithTagGroups(csvLines)
 
 

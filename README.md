@@ -99,5 +99,6 @@ create 'custom' tags groups that, more or less, combine related tags together. A
 
 ['math', 'numbertheory', 'combinatorics', 'geometry', 'probabilities', 'matrices', 'fft']
 
-This 'all_math' tag occurs closer to %50 of the time, which at least gives us a way to evaluate a few more balanced
-tags.
+This 'all_math' tag occurs %30 of the time, which at least gives us a way to evaluate a few more balanced
+tags. With the common custom tags, the naive_bayes learner improves over "randomly guessing" by a couple of percentage
+points, which is not very significant.

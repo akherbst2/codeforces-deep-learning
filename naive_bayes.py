@@ -58,7 +58,7 @@ def bernoulli_naive_bayes_classifier():
         for tag in y:
             all_tags.add(tag)
 
-    clf = BernoulliNB(alpha=.01)
+    clf = BernoulliNB(alpha=.1)
 
     for tag in sorted(all_tags):
         if len(tag.strip()) == 0:

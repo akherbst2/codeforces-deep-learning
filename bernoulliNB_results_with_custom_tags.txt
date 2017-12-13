@@ -1,3 +1,5 @@
+Executed with Learning Rate 0.1
+
 Beginning cross validation for tag 2-sat
 Results for fold 0 of tag 2-sat:  Accuracy = 1.0 ; true_guesses = 0; false_guesses = 369
 Results for fold 1 of tag 2-sat:  Accuracy = 0.994579945799458 ; true_guesses = 0; false_guesses = 369
