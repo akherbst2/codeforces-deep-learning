@@ -3,6 +3,9 @@ import util
 
 
 """
+Loads a single problem by giving a file path to an html file.
+Involves parsing of html using beautiful soup
+
 Note, input path must be of the form
 "texts/<contest #>/<Problem Letter String>.html"
 
@@ -96,4 +99,3 @@ if __name__ == '__main__':
     #problem = Problem("./texts/524/A.html")
 
     problem = Problem("./texts/711/E.html")
-    print problem

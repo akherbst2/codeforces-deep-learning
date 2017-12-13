@@ -1,3 +1,4 @@
+
 from bs4 import BeautifulSoup
 import os
 import pickle
@@ -6,6 +7,7 @@ import urllib
 import urllib.request
 import re
 text_path = 'texts/{}'
+#Needs to be changed to reflect actual number of pages on the http://codeforces.com/problemset page
 num_pages = 38
 
 try:
@@ -13,7 +15,20 @@ try:
 except OSError:
     print('text folder prepared.')
 
+"""
+A function that downloads the html for Codeforces problem pages. 
 
+NOTE: There is already a zip file on the repo the raw html for the first 3800 or so problems. It is recommended to
+use that unless having the most recent problems is incredibly important.
+
+NOTE: Please use good etiquette and do not
+use during peak hours!
+
+The program could take several hours to run.
+
+Output is a directory 'texts' in the current directory that contains a folder for each competitition. Each competition
+folder contains an html page for each problem of that competition. These html pages are raw and unsanitized.
+"""
 def import_cf():
     if not len(sys.argv) < 2:
         print("Usage: %s <URL>" % (sys.argv[0]))
@@ -53,27 +68,9 @@ def import_cf():
             with open(text_path, 'wb') as outfile:
                 outfile.write(v)
 
-
-
-
-
-
-class Problem:
-
-    def __init__(self):
-        self.title = ''
-        self.time_limit = ''
-        self.memory_limit = ''
-        self.main_text = ''
-        self.input_specification = ''
-        self.output_specification = ''
-
-    def __str__(self):
-        return self.title
-
+"""Do not run during peak hours."""
 def main():
     import_cf()
-
 
 if __name__ == '__main__':
     main()
