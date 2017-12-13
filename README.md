@@ -31,10 +31,7 @@ Then to activate the python virtual environment, run
 ```
   $ source activate python3.5
 ```
-<<<<<<< HEAD
-  $ python scraper.py
-```
-=======
+
 If you would like to deactivate the virtual environment, run
 ```
   $ deactivate
@@ -79,3 +76,28 @@ problem.py contains a class object that will represent fields for a single probl
 
 To load all problems, see the util.loadAllProblems() function. This will parse the raw html from the scraper output
 into a set of problem objects.
+
+--------------------------
+Bernoulli Naive Bayes
+
+To run our Bernoulli Naive Bayes, use $ python naive_bayes.py. This will execute a separate learning and testing
+algorithm on each tag. The code uses K-fold cross validation on each tag. The evaluation accuracy is whether or not the
+trained naive_bayes learner correctly guesses 'yes' or 'no' as to whether each problem in the testing set has a tag or
+not.
+
+To start with, we used only the problem tags from the Codeforces website. However, we found that both naive_bayes,
+and later the neural network, tend to learn to guess 'no' most of the time for uncommon tags. While this achieves a high
+'accuracy', it is obviously not very interesting. By decreasing the learning rate, the naive bayes guesses 'yes' more
+often but, as a result, achieves a lower accuracy. For most tags, the final accuracy is comparable to the number of
+problems that do not have the tag. For uncommon tags, such as ones like 'chineseremaindertheorem' with only about 10
+occurrences, there is little we can do about this behavior; there is not enough data. These tags could be ignored
+entirely.
+
+Even with tags that occur more than 10% of the time, this behavior is still present. To mitigate this, we decided to
+create 'custom' tags groups that, more or less, combine related tags together. As an example, we made a new tag,
+'all_math' which is assigned to every problem with any one of the following math-related tags.
+
+['math', 'numbertheory', 'combinatorics', 'geometry', 'probabilities', 'matrices', 'fft']
+
+This 'all_math' tag occurs closer to %50 of the time, which at least gives us a way to evaluate a few more balanced
+tags.

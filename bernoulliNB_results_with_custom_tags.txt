@@ -1,0 +1,480 @@
+Beginning cross validation for tag 2-sat
+Results for fold 0 of tag 2-sat:  Accuracy = 1.0 ; true_guesses = 0; false_guesses = 369
+Results for fold 1 of tag 2-sat:  Accuracy = 0.994579945799458 ; true_guesses = 0; false_guesses = 369
+Results for fold 2 of tag 2-sat:  Accuracy = 0.994579945799458 ; true_guesses = 1; false_guesses = 368
+Results for fold 3 of tag 2-sat:  Accuracy = 0.997289972899729 ; true_guesses = 1; false_guesses = 368
+Results for fold 4 of tag 2-sat:  Accuracy = 0.997289972899729 ; true_guesses = 0; false_guesses = 369
+Results for fold 5 of tag 2-sat:  Accuracy = 0.9945652173913043 ; true_guesses = 0; false_guesses = 368
+Results for fold 6 of tag 2-sat:  Accuracy = 0.9945652173913043 ; true_guesses = 1; false_guesses = 367
+Results for fold 7 of tag 2-sat:  Accuracy = 1.0 ; true_guesses = 0; false_guesses = 368
+Results for fold 8 of tag 2-sat:  Accuracy = 0.9918478260869565 ; true_guesses = 1; false_guesses = 367
+Results for fold 9 of tag 2-sat:  Accuracy = 0.9972826086956522 ; true_guesses = 0; false_guesses = 368
+Average accuracy for tag 2-sat is 0.9962000706963592
+Beginning cross validation for tag allgraphs
+Results for fold 0 of tag allgraphs:  Accuracy = 0.9132791327913279 ; true_guesses = 40; false_guesses = 329
+Results for fold 1 of tag allgraphs:  Accuracy = 0.8943089430894309 ; true_guesses = 70; false_guesses = 299
+Results for fold 2 of tag allgraphs:  Accuracy = 0.8536585365853658 ; true_guesses = 55; false_guesses = 314
+Results for fold 3 of tag allgraphs:  Accuracy = 0.8807588075880759 ; true_guesses = 61; false_guesses = 308
+Results for fold 4 of tag allgraphs:  Accuracy = 0.8617886178861789 ; true_guesses = 57; false_guesses = 312
+Results for fold 5 of tag allgraphs:  Accuracy = 0.8505434782608695 ; true_guesses = 70; false_guesses = 298
+Results for fold 6 of tag allgraphs:  Accuracy = 0.8722826086956522 ; true_guesses = 62; false_guesses = 306
+Results for fold 7 of tag allgraphs:  Accuracy = 0.8586956521739131 ; true_guesses = 74; false_guesses = 294
+Results for fold 8 of tag allgraphs:  Accuracy = 0.8532608695652174 ; true_guesses = 69; false_guesses = 299
+Results for fold 9 of tag allgraphs:  Accuracy = 0.8559782608695652 ; true_guesses = 77; false_guesses = 291
+Average accuracy for tag allgraphs is 0.8694554907505596
+Beginning cross validation for tag allmath
+Results for fold 0 of tag allmath:  Accuracy = 0.6802168021680217 ; true_guesses = 142; false_guesses = 227
+Results for fold 1 of tag allmath:  Accuracy = 0.7560975609756098 ; true_guesses = 130; false_guesses = 239
+Results for fold 2 of tag allmath:  Accuracy = 0.6802168021680217 ; true_guesses = 157; false_guesses = 212
+Results for fold 3 of tag allmath:  Accuracy = 0.7506775067750677 ; true_guesses = 118; false_guesses = 251
+Results for fold 4 of tag allmath:  Accuracy = 0.6775067750677507 ; true_guesses = 137; false_guesses = 232
+Results for fold 5 of tag allmath:  Accuracy = 0.7418478260869565 ; true_guesses = 97; false_guesses = 271
+Results for fold 6 of tag allmath:  Accuracy = 0.7663043478260869 ; true_guesses = 117; false_guesses = 251
+Results for fold 7 of tag allmath:  Accuracy = 0.7255434782608695 ; true_guesses = 103; false_guesses = 265
+Results for fold 8 of tag allmath:  Accuracy = 0.7608695652173914 ; true_guesses = 102; false_guesses = 266
+Results for fold 9 of tag allmath:  Accuracy = 0.7364130434782609 ; true_guesses = 104; false_guesses = 264
+Average accuracy for tag allmath is 0.7275693708024037
+Beginning cross validation for tag allstrings
+Results for fold 0 of tag allstrings:  Accuracy = 0.8780487804878049 ; true_guesses = 54; false_guesses = 315
+Results for fold 1 of tag allstrings:  Accuracy = 0.94579945799458 ; true_guesses = 36; false_guesses = 333
+Results for fold 2 of tag allstrings:  Accuracy = 0.9512195121951219 ; true_guesses = 28; false_guesses = 341
+Results for fold 3 of tag allstrings:  Accuracy = 0.9566395663956639 ; true_guesses = 21; false_guesses = 348
+Results for fold 4 of tag allstrings:  Accuracy = 0.9322493224932249 ; true_guesses = 30; false_guesses = 339
+Results for fold 5 of tag allstrings:  Accuracy = 0.8940217391304348 ; true_guesses = 46; false_guesses = 322
+Results for fold 6 of tag allstrings:  Accuracy = 0.9347826086956522 ; true_guesses = 30; false_guesses = 338
+Results for fold 7 of tag allstrings:  Accuracy = 0.9157608695652174 ; true_guesses = 38; false_guesses = 330
+Results for fold 8 of tag allstrings:  Accuracy = 0.904891304347826 ; true_guesses = 45; false_guesses = 323
+Results for fold 9 of tag allstrings:  Accuracy = 0.904891304347826 ; true_guesses = 42; false_guesses = 326
+Average accuracy for tag allstrings is 0.9218304465653352
+Beginning cross validation for tag binarysearch
+Results for fold 0 of tag binarysearch:  Accuracy = 0.8997289972899729 ; true_guesses = 17; false_guesses = 352
+Results for fold 1 of tag binarysearch:  Accuracy = 0.8563685636856369 ; true_guesses = 21; false_guesses = 348
+Results for fold 2 of tag binarysearch:  Accuracy = 0.8834688346883469 ; true_guesses = 26; false_guesses = 343
+Results for fold 3 of tag binarysearch:  Accuracy = 0.8753387533875339 ; true_guesses = 23; false_guesses = 346
+Results for fold 4 of tag binarysearch:  Accuracy = 0.8699186991869918 ; true_guesses = 31; false_guesses = 338
+Results for fold 5 of tag binarysearch:  Accuracy = 0.845108695652174 ; true_guesses = 28; false_guesses = 340
+Results for fold 6 of tag binarysearch:  Accuracy = 0.8288043478260869 ; true_guesses = 34; false_guesses = 334
+Results for fold 7 of tag binarysearch:  Accuracy = 0.8559782608695652 ; true_guesses = 30; false_guesses = 338
+Results for fold 8 of tag binarysearch:  Accuracy = 0.8179347826086957 ; true_guesses = 34; false_guesses = 334
+Results for fold 9 of tag binarysearch:  Accuracy = 0.8342391304347826 ; true_guesses = 25; false_guesses = 343
+Average accuracy for tag binarysearch is 0.8566889065629786
+Beginning cross validation for tag bitmasks
+Results for fold 0 of tag bitmasks:  Accuracy = 0.943089430894309 ; true_guesses = 16; false_guesses = 353
+Results for fold 1 of tag bitmasks:  Accuracy = 0.9349593495934959 ; true_guesses = 12; false_guesses = 357
+Results for fold 2 of tag bitmasks:  Accuracy = 0.9376693766937669 ; true_guesses = 17; false_guesses = 352
+Results for fold 3 of tag bitmasks:  Accuracy = 0.9295392953929539 ; true_guesses = 15; false_guesses = 354
+Results for fold 4 of tag bitmasks:  Accuracy = 0.9214092140921409 ; true_guesses = 17; false_guesses = 352
+Results for fold 5 of tag bitmasks:  Accuracy = 0.9130434782608695 ; true_guesses = 18; false_guesses = 350
+Results for fold 6 of tag bitmasks:  Accuracy = 0.9266304347826086 ; true_guesses = 23; false_guesses = 345
+Results for fold 7 of tag bitmasks:  Accuracy = 0.9565217391304348 ; true_guesses = 13; false_guesses = 355
+Results for fold 8 of tag bitmasks:  Accuracy = 0.907608695652174 ; true_guesses = 17; false_guesses = 351
+Results for fold 9 of tag bitmasks:  Accuracy = 0.9293478260869565 ; true_guesses = 10; false_guesses = 358
+Average accuracy for tag bitmasks is 0.9299818840579709
+Beginning cross validation for tag bruteforce
+Results for fold 0 of tag bruteforce:  Accuracy = 0.7073170731707317 ; true_guesses = 88; false_guesses = 281
+Results for fold 1 of tag bruteforce:  Accuracy = 0.7208672086720868 ; true_guesses = 84; false_guesses = 285
+Results for fold 2 of tag bruteforce:  Accuracy = 0.7262872628726287 ; true_guesses = 76; false_guesses = 293
+Results for fold 3 of tag bruteforce:  Accuracy = 0.7235772357723578 ; true_guesses = 80; false_guesses = 289
+Results for fold 4 of tag bruteforce:  Accuracy = 0.7262872628726287 ; true_guesses = 82; false_guesses = 287
+Results for fold 5 of tag bruteforce:  Accuracy = 0.7581521739130435 ; true_guesses = 70; false_guesses = 298
+Results for fold 6 of tag bruteforce:  Accuracy = 0.7309782608695652 ; true_guesses = 69; false_guesses = 299
+Results for fold 7 of tag bruteforce:  Accuracy = 0.7690217391304348 ; true_guesses = 63; false_guesses = 305
+Results for fold 8 of tag bruteforce:  Accuracy = 0.7527173913043478 ; true_guesses = 70; false_guesses = 298
+Results for fold 9 of tag bruteforce:  Accuracy = 0.7472826086956522 ; true_guesses = 64; false_guesses = 304
+Average accuracy for tag bruteforce is 0.7362488217273476
+Beginning cross validation for tag chineseremaindertheorem
+Results for fold 0 of tag chineseremaindertheorem:  Accuracy = 0.994579945799458 ; true_guesses = 1; false_guesses = 368
+Results for fold 1 of tag chineseremaindertheorem:  Accuracy = 0.994579945799458 ; true_guesses = 0; false_guesses = 369
+Results for fold 2 of tag chineseremaindertheorem:  Accuracy = 0.994579945799458 ; true_guesses = 1; false_guesses = 368
+Results for fold 3 of tag chineseremaindertheorem:  Accuracy = 0.994579945799458 ; true_guesses = 2; false_guesses = 367
+Results for fold 4 of tag chineseremaindertheorem:  Accuracy = 1.0 ; true_guesses = 0; false_guesses = 369
+Results for fold 5 of tag chineseremaindertheorem:  Accuracy = 1.0 ; true_guesses = 0; false_guesses = 368
+Results for fold 6 of tag chineseremaindertheorem:  Accuracy = 0.9945652173913043 ; true_guesses = 2; false_guesses = 366
+Results for fold 7 of tag chineseremaindertheorem:  Accuracy = 0.9945652173913043 ; true_guesses = 0; false_guesses = 368
+Results for fold 8 of tag chineseremaindertheorem:  Accuracy = 0.9972826086956522 ; true_guesses = 1; false_guesses = 367
+Results for fold 9 of tag chineseremaindertheorem:  Accuracy = 1.0 ; true_guesses = 0; false_guesses = 368
+Average accuracy for tag chineseremaindertheorem is 0.9964732826676093
+Beginning cross validation for tag combinatorics
+Results for fold 0 of tag combinatorics:  Accuracy = 0.8455284552845529 ; true_guesses = 43; false_guesses = 326
+Results for fold 1 of tag combinatorics:  Accuracy = 0.9024390243902439 ; true_guesses = 34; false_guesses = 335
+Results for fold 2 of tag combinatorics:  Accuracy = 0.8644986449864499 ; true_guesses = 40; false_guesses = 329
+Results for fold 3 of tag combinatorics:  Accuracy = 0.8807588075880759 ; true_guesses = 38; false_guesses = 331
+Results for fold 4 of tag combinatorics:  Accuracy = 0.8373983739837398 ; true_guesses = 52; false_guesses = 317
+Results for fold 5 of tag combinatorics:  Accuracy = 0.8994565217391305 ; true_guesses = 19; false_guesses = 349
+Results for fold 6 of tag combinatorics:  Accuracy = 0.8804347826086957 ; true_guesses = 32; false_guesses = 336
+Results for fold 7 of tag combinatorics:  Accuracy = 0.8994565217391305 ; true_guesses = 34; false_guesses = 334
+Results for fold 8 of tag combinatorics:  Accuracy = 0.8967391304347826 ; true_guesses = 32; false_guesses = 336
+Results for fold 9 of tag combinatorics:  Accuracy = 0.904891304347826 ; true_guesses = 27; false_guesses = 341
+Average accuracy for tag combinatorics is 0.8811601567102627
+Beginning cross validation for tag constructivealgorithms
+Results for fold 0 of tag constructivealgorithms:  Accuracy = 0.8753387533875339 ; true_guesses = 31; false_guesses = 338
+Results for fold 1 of tag constructivealgorithms:  Accuracy = 0.8373983739837398 ; true_guesses = 50; false_guesses = 319
+Results for fold 2 of tag constructivealgorithms:  Accuracy = 0.8075880758807588 ; true_guesses = 47; false_guesses = 322
+Results for fold 3 of tag constructivealgorithms:  Accuracy = 0.8590785907859079 ; true_guesses = 40; false_guesses = 329
+Results for fold 4 of tag constructivealgorithms:  Accuracy = 0.8292682926829268 ; true_guesses = 44; false_guesses = 325
+Results for fold 5 of tag constructivealgorithms:  Accuracy = 0.8396739130434783 ; true_guesses = 53; false_guesses = 315
+Results for fold 6 of tag constructivealgorithms:  Accuracy = 0.8478260869565217 ; true_guesses = 38; false_guesses = 330
+Results for fold 7 of tag constructivealgorithms:  Accuracy = 0.8315217391304348 ; true_guesses = 38; false_guesses = 330
+Results for fold 8 of tag constructivealgorithms:  Accuracy = 0.7989130434782609 ; true_guesses = 52; false_guesses = 316
+Results for fold 9 of tag constructivealgorithms:  Accuracy = 0.8369565217391305 ; true_guesses = 43; false_guesses = 325
+Average accuracy for tag constructivealgorithms is 0.8363563391068694
+Beginning cross validation for tag datastructures
+Results for fold 0 of tag datastructures:  Accuracy = 0.8915989159891599 ; true_guesses = 26; false_guesses = 343
+Results for fold 1 of tag datastructures:  Accuracy = 0.8346883468834688 ; true_guesses = 48; false_guesses = 321
+Results for fold 2 of tag datastructures:  Accuracy = 0.8292682926829268 ; true_guesses = 61; false_guesses = 308
+Results for fold 3 of tag datastructures:  Accuracy = 0.8401084010840109 ; true_guesses = 46; false_guesses = 323
+Results for fold 4 of tag datastructures:  Accuracy = 0.8401084010840109 ; true_guesses = 48; false_guesses = 321
+Results for fold 5 of tag datastructures:  Accuracy = 0.8043478260869565 ; true_guesses = 51; false_guesses = 317
+Results for fold 6 of tag datastructures:  Accuracy = 0.8288043478260869 ; true_guesses = 65; false_guesses = 303
+Results for fold 7 of tag datastructures:  Accuracy = 0.8369565217391305 ; true_guesses = 48; false_guesses = 320
+Results for fold 8 of tag datastructures:  Accuracy = 0.8233695652173914 ; true_guesses = 52; false_guesses = 316
+Results for fold 9 of tag datastructures:  Accuracy = 0.8070652173913043 ; true_guesses = 53; false_guesses = 315
+Average accuracy for tag datastructures is 0.8336315835984447
+Beginning cross validation for tag dfsandsimilar
+Results for fold 0 of tag dfsandsimilar:  Accuracy = 0.926829268292683 ; true_guesses = 22; false_guesses = 347
+Results for fold 1 of tag dfsandsimilar:  Accuracy = 0.8753387533875339 ; true_guesses = 45; false_guesses = 324
+Results for fold 2 of tag dfsandsimilar:  Accuracy = 0.8563685636856369 ; true_guesses = 39; false_guesses = 330
+Results for fold 3 of tag dfsandsimilar:  Accuracy = 0.8943089430894309 ; true_guesses = 35; false_guesses = 334
+Results for fold 4 of tag dfsandsimilar:  Accuracy = 0.8943089430894309 ; true_guesses = 28; false_guesses = 341
+Results for fold 5 of tag dfsandsimilar:  Accuracy = 0.8641304347826086 ; true_guesses = 46; false_guesses = 322
+Results for fold 6 of tag dfsandsimilar:  Accuracy = 0.8804347826086957 ; true_guesses = 40; false_guesses = 328
+Results for fold 7 of tag dfsandsimilar:  Accuracy = 0.8804347826086957 ; true_guesses = 51; false_guesses = 317
+Results for fold 8 of tag dfsandsimilar:  Accuracy = 0.8614130434782609 ; true_guesses = 48; false_guesses = 320
+Results for fold 9 of tag dfsandsimilar:  Accuracy = 0.8994565217391305 ; true_guesses = 47; false_guesses = 321
+Average accuracy for tag dfsandsimilar is 0.8833024036762106
+Beginning cross validation for tag divideandconquer
+Results for fold 0 of tag divideandconquer:  Accuracy = 0.975609756097561 ; true_guesses = 2; false_guesses = 367
+Results for fold 1 of tag divideandconquer:  Accuracy = 0.978319783197832 ; true_guesses = 2; false_guesses = 367
+Results for fold 2 of tag divideandconquer:  Accuracy = 0.9701897018970189 ; true_guesses = 7; false_guesses = 362
+Results for fold 3 of tag divideandconquer:  Accuracy = 0.9566395663956639 ; true_guesses = 8; false_guesses = 361
+Results for fold 4 of tag divideandconquer:  Accuracy = 0.9566395663956639 ; true_guesses = 9; false_guesses = 360
+Results for fold 5 of tag divideandconquer:  Accuracy = 0.9619565217391305 ; true_guesses = 5; false_guesses = 363
+Results for fold 6 of tag divideandconquer:  Accuracy = 0.9456521739130435 ; true_guesses = 16; false_guesses = 352
+Results for fold 7 of tag divideandconquer:  Accuracy = 0.970108695652174 ; true_guesses = 6; false_guesses = 362
+Results for fold 8 of tag divideandconquer:  Accuracy = 0.9483695652173914 ; true_guesses = 9; false_guesses = 359
+Results for fold 9 of tag divideandconquer:  Accuracy = 0.9510869565217391 ; true_guesses = 9; false_guesses = 359
+Average accuracy for tag divideandconquer is 0.9614572287027217
+Beginning cross validation for tag dp
+Results for fold 0 of tag dp:  Accuracy = 0.7859078590785907 ; true_guesses = 53; false_guesses = 316
+Results for fold 1 of tag dp:  Accuracy = 0.7533875338753387 ; true_guesses = 75; false_guesses = 294
+Results for fold 2 of tag dp:  Accuracy = 0.7262872628726287 ; true_guesses = 73; false_guesses = 296
+Results for fold 3 of tag dp:  Accuracy = 0.7533875338753387 ; true_guesses = 58; false_guesses = 311
+Results for fold 4 of tag dp:  Accuracy = 0.7154471544715447 ; true_guesses = 78; false_guesses = 291
+Results for fold 5 of tag dp:  Accuracy = 0.7635869565217391 ; true_guesses = 63; false_guesses = 305
+Results for fold 6 of tag dp:  Accuracy = 0.7527173913043478 ; true_guesses = 80; false_guesses = 288
+Results for fold 7 of tag dp:  Accuracy = 0.7527173913043478 ; true_guesses = 64; false_guesses = 304
+Results for fold 8 of tag dp:  Accuracy = 0.6902173913043478 ; true_guesses = 58; false_guesses = 310
+Results for fold 9 of tag dp:  Accuracy = 0.7282608695652174 ; true_guesses = 65; false_guesses = 303
+Average accuracy for tag dp is 0.7421917344173441
+Beginning cross validation for tag dsu
+Results for fold 0 of tag dsu:  Accuracy = 0.959349593495935 ; true_guesses = 8; false_guesses = 361
+Results for fold 1 of tag dsu:  Accuracy = 0.9322493224932249 ; true_guesses = 20; false_guesses = 349
+Results for fold 2 of tag dsu:  Accuracy = 0.94579945799458 ; true_guesses = 18; false_guesses = 351
+Results for fold 3 of tag dsu:  Accuracy = 0.948509485094851 ; true_guesses = 12; false_guesses = 357
+Results for fold 4 of tag dsu:  Accuracy = 0.9349593495934959 ; true_guesses = 10; false_guesses = 359
+Results for fold 5 of tag dsu:  Accuracy = 0.9239130434782609 ; true_guesses = 21; false_guesses = 347
+Results for fold 6 of tag dsu:  Accuracy = 0.9375 ; true_guesses = 15; false_guesses = 353
+Results for fold 7 of tag dsu:  Accuracy = 0.9266304347826086 ; true_guesses = 19; false_guesses = 349
+Results for fold 8 of tag dsu:  Accuracy = 0.9266304347826086 ; true_guesses = 14; false_guesses = 354
+Results for fold 9 of tag dsu:  Accuracy = 0.9293478260869565 ; true_guesses = 16; false_guesses = 352
+Average accuracy for tag dsu is 0.9364888947802521
+Beginning cross validation for tag easy
+Results for fold 0 of tag easy:  Accuracy = 0.5962059620596206 ; true_guesses = 189; false_guesses = 180
+Results for fold 1 of tag easy:  Accuracy = 0.6233062330623306 ; true_guesses = 191; false_guesses = 178
+Results for fold 2 of tag easy:  Accuracy = 0.5934959349593496 ; true_guesses = 158; false_guesses = 211
+Results for fold 3 of tag easy:  Accuracy = 0.6233062330623306 ; true_guesses = 186; false_guesses = 183
+Results for fold 4 of tag easy:  Accuracy = 0.5853658536585366 ; true_guesses = 186; false_guesses = 183
+Results for fold 5 of tag easy:  Accuracy = 0.6195652173913043 ; true_guesses = 163; false_guesses = 205
+Results for fold 6 of tag easy:  Accuracy = 0.6385869565217391 ; true_guesses = 159; false_guesses = 209
+Results for fold 7 of tag easy:  Accuracy = 0.6304347826086957 ; true_guesses = 159; false_guesses = 209
+Results for fold 8 of tag easy:  Accuracy = 0.6032608695652174 ; true_guesses = 159; false_guesses = 209
+Results for fold 9 of tag easy:  Accuracy = 0.6521739130434783 ; true_guesses = 146; false_guesses = 222
+Average accuracy for tag easy is 0.6165701955932603
+Beginning cross validation for tag expressionparsing
+Results for fold 0 of tag expressionparsing:  Accuracy = 0.9728997289972899 ; true_guesses = 12; false_guesses = 357
+Results for fold 1 of tag expressionparsing:  Accuracy = 0.981029810298103 ; true_guesses = 4; false_guesses = 365
+Results for fold 2 of tag expressionparsing:  Accuracy = 0.989159891598916 ; true_guesses = 2; false_guesses = 367
+Results for fold 3 of tag expressionparsing:  Accuracy = 0.978319783197832 ; true_guesses = 6; false_guesses = 363
+Results for fold 4 of tag expressionparsing:  Accuracy = 0.989159891598916 ; true_guesses = 4; false_guesses = 365
+Results for fold 5 of tag expressionparsing:  Accuracy = 0.9836956521739131 ; true_guesses = 6; false_guesses = 362
+Results for fold 6 of tag expressionparsing:  Accuracy = 0.9782608695652174 ; true_guesses = 6; false_guesses = 362
+Results for fold 7 of tag expressionparsing:  Accuracy = 0.9755434782608695 ; true_guesses = 7; false_guesses = 361
+Results for fold 8 of tag expressionparsing:  Accuracy = 0.9809782608695652 ; true_guesses = 3; false_guesses = 365
+Results for fold 9 of tag expressionparsing:  Accuracy = 0.9836956521739131 ; true_guesses = 5; false_guesses = 363
+Average accuracy for tag expressionparsing is 0.9812743018734533
+Beginning cross validation for tag fft
+Results for fold 0 of tag fft:  Accuracy = 0.997289972899729 ; true_guesses = 1; false_guesses = 368
+Results for fold 1 of tag fft:  Accuracy = 1.0 ; true_guesses = 0; false_guesses = 369
+Results for fold 2 of tag fft:  Accuracy = 0.991869918699187 ; true_guesses = 1; false_guesses = 368
+Results for fold 3 of tag fft:  Accuracy = 0.997289972899729 ; true_guesses = 1; false_guesses = 368
+Results for fold 4 of tag fft:  Accuracy = 0.994579945799458 ; true_guesses = 0; false_guesses = 369
+Results for fold 5 of tag fft:  Accuracy = 0.9945652173913043 ; true_guesses = 0; false_guesses = 368
+Results for fold 6 of tag fft:  Accuracy = 0.9891304347826086 ; true_guesses = 2; false_guesses = 366
+Results for fold 7 of tag fft:  Accuracy = 0.9972826086956522 ; true_guesses = 0; false_guesses = 368
+Results for fold 8 of tag fft:  Accuracy = 0.9891304347826086 ; true_guesses = 1; false_guesses = 367
+Results for fold 9 of tag fft:  Accuracy = 0.9891304347826086 ; true_guesses = 1; false_guesses = 367
+Average accuracy for tag fft is 0.9940268940732887
+Beginning cross validation for tag flows
+Results for fold 0 of tag flows:  Accuracy = 0.981029810298103 ; true_guesses = 3; false_guesses = 366
+Results for fold 1 of tag flows:  Accuracy = 0.991869918699187 ; true_guesses = 0; false_guesses = 369
+Results for fold 2 of tag flows:  Accuracy = 0.981029810298103 ; true_guesses = 2; false_guesses = 367
+Results for fold 3 of tag flows:  Accuracy = 0.991869918699187 ; true_guesses = 1; false_guesses = 368
+Results for fold 4 of tag flows:  Accuracy = 0.981029810298103 ; true_guesses = 3; false_guesses = 366
+Results for fold 5 of tag flows:  Accuracy = 0.9891304347826086 ; true_guesses = 0; false_guesses = 368
+Results for fold 6 of tag flows:  Accuracy = 0.9782608695652174 ; true_guesses = 3; false_guesses = 365
+Results for fold 7 of tag flows:  Accuracy = 0.967391304347826 ; true_guesses = 2; false_guesses = 366
+Results for fold 8 of tag flows:  Accuracy = 0.9728260869565217 ; true_guesses = 6; false_guesses = 362
+Results for fold 9 of tag flows:  Accuracy = 0.9755434782608695 ; true_guesses = 3; false_guesses = 365
+Average accuracy for tag flows is 0.9809981442205726
+Beginning cross validation for tag games
+Results for fold 0 of tag games:  Accuracy = 0.975609756097561 ; true_guesses = 6; false_guesses = 363
+Results for fold 1 of tag games:  Accuracy = 0.994579945799458 ; true_guesses = 5; false_guesses = 364
+Results for fold 2 of tag games:  Accuracy = 0.986449864498645 ; true_guesses = 9; false_guesses = 360
+Results for fold 3 of tag games:  Accuracy = 0.983739837398374 ; true_guesses = 7; false_guesses = 362
+Results for fold 4 of tag games:  Accuracy = 0.994579945799458 ; true_guesses = 5; false_guesses = 364
+Results for fold 5 of tag games:  Accuracy = 0.9836956521739131 ; true_guesses = 5; false_guesses = 363
+Results for fold 6 of tag games:  Accuracy = 0.9809782608695652 ; true_guesses = 4; false_guesses = 364
+Results for fold 7 of tag games:  Accuracy = 0.9809782608695652 ; true_guesses = 4; false_guesses = 364
+Results for fold 8 of tag games:  Accuracy = 0.9864130434782609 ; true_guesses = 8; false_guesses = 360
+Results for fold 9 of tag games:  Accuracy = 0.9918478260869565 ; true_guesses = 6; false_guesses = 362
+Average accuracy for tag games is 0.9858872393071758
+Beginning cross validation for tag geometry
+Results for fold 0 of tag geometry:  Accuracy = 0.94579945799458 ; true_guesses = 22; false_guesses = 347
+Results for fold 1 of tag geometry:  Accuracy = 0.9539295392953929 ; true_guesses = 20; false_guesses = 349
+Results for fold 2 of tag geometry:  Accuracy = 0.9512195121951219 ; true_guesses = 21; false_guesses = 348
+Results for fold 3 of tag geometry:  Accuracy = 0.9539295392953929 ; true_guesses = 20; false_guesses = 349
+Results for fold 4 of tag geometry:  Accuracy = 0.967479674796748 ; true_guesses = 14; false_guesses = 355
+Results for fold 5 of tag geometry:  Accuracy = 0.9619565217391305 ; true_guesses = 15; false_guesses = 353
+Results for fold 6 of tag geometry:  Accuracy = 0.9510869565217391 ; true_guesses = 22; false_guesses = 346
+Results for fold 7 of tag geometry:  Accuracy = 0.9592391304347826 ; true_guesses = 18; false_guesses = 350
+Results for fold 8 of tag geometry:  Accuracy = 0.9592391304347826 ; true_guesses = 20; false_guesses = 348
+Results for fold 9 of tag geometry:  Accuracy = 0.9565217391304348 ; true_guesses = 18; false_guesses = 350
+Average accuracy for tag geometry is 0.9560401201838106
+Beginning cross validation for tag graphmatchings
+Results for fold 0 of tag graphmatchings:  Accuracy = 0.986449864498645 ; true_guesses = 1; false_guesses = 368
+Results for fold 1 of tag graphmatchings:  Accuracy = 0.997289972899729 ; true_guesses = 0; false_guesses = 369
+Results for fold 2 of tag graphmatchings:  Accuracy = 0.991869918699187 ; true_guesses = 1; false_guesses = 368
+Results for fold 3 of tag graphmatchings:  Accuracy = 0.991869918699187 ; true_guesses = 1; false_guesses = 368
+Results for fold 4 of tag graphmatchings:  Accuracy = 0.978319783197832 ; true_guesses = 2; false_guesses = 367
+Results for fold 5 of tag graphmatchings:  Accuracy = 0.9945652173913043 ; true_guesses = 1; false_guesses = 367
+Results for fold 6 of tag graphmatchings:  Accuracy = 0.9836956521739131 ; true_guesses = 4; false_guesses = 364
+Results for fold 7 of tag graphmatchings:  Accuracy = 0.9918478260869565 ; true_guesses = 1; false_guesses = 367
+Results for fold 8 of tag graphmatchings:  Accuracy = 0.9891304347826086 ; true_guesses = 3; false_guesses = 365
+Results for fold 9 of tag graphmatchings:  Accuracy = 0.9945652173913043 ; true_guesses = 0; false_guesses = 368
+Average accuracy for tag graphmatchings is 0.9899603805820668
+Beginning cross validation for tag graphs
+Results for fold 0 of tag graphs:  Accuracy = 0.94579945799458 ; true_guesses = 23; false_guesses = 346
+Results for fold 1 of tag graphs:  Accuracy = 0.9214092140921409 ; true_guesses = 39; false_guesses = 330
+Results for fold 2 of tag graphs:  Accuracy = 0.9051490514905149 ; true_guesses = 31; false_guesses = 338
+Results for fold 3 of tag graphs:  Accuracy = 0.907859078590786 ; true_guesses = 23; false_guesses = 346
+Results for fold 4 of tag graphs:  Accuracy = 0.9214092140921409 ; true_guesses = 24; false_guesses = 345
+Results for fold 5 of tag graphs:  Accuracy = 0.8913043478260869 ; true_guesses = 44; false_guesses = 324
+Results for fold 6 of tag graphs:  Accuracy = 0.9130434782608695 ; true_guesses = 36; false_guesses = 332
+Results for fold 7 of tag graphs:  Accuracy = 0.9103260869565217 ; true_guesses = 34; false_guesses = 334
+Results for fold 8 of tag graphs:  Accuracy = 0.9021739130434783 ; true_guesses = 35; false_guesses = 333
+Results for fold 9 of tag graphs:  Accuracy = 0.8967391304347826 ; true_guesses = 43; false_guesses = 325
+Average accuracy for tag graphs is 0.9115212972781901
+Beginning cross validation for tag greedy
+Results for fold 0 of tag greedy:  Accuracy = 0.8130081300813008 ; true_guesses = 57; false_guesses = 312
+Results for fold 1 of tag greedy:  Accuracy = 0.7886178861788617 ; true_guesses = 64; false_guesses = 305
+Results for fold 2 of tag greedy:  Accuracy = 0.7696476964769647 ; true_guesses = 48; false_guesses = 321
+Results for fold 3 of tag greedy:  Accuracy = 0.7669376693766937 ; true_guesses = 59; false_guesses = 310
+Results for fold 4 of tag greedy:  Accuracy = 0.7127371273712737 ; true_guesses = 65; false_guesses = 304
+Results for fold 5 of tag greedy:  Accuracy = 0.6956521739130435 ; true_guesses = 63; false_guesses = 305
+Results for fold 6 of tag greedy:  Accuracy = 0.8070652173913043 ; true_guesses = 62; false_guesses = 306
+Results for fold 7 of tag greedy:  Accuracy = 0.7663043478260869 ; true_guesses = 67; false_guesses = 301
+Results for fold 8 of tag greedy:  Accuracy = 0.7282608695652174 ; true_guesses = 68; false_guesses = 300
+Results for fold 9 of tag greedy:  Accuracy = 0.7690217391304348 ; true_guesses = 69; false_guesses = 299
+Average accuracy for tag greedy is 0.7617252857311182
+Beginning cross validation for tag hashing
+Results for fold 0 of tag hashing:  Accuracy = 0.943089430894309 ; true_guesses = 16; false_guesses = 353
+Results for fold 1 of tag hashing:  Accuracy = 0.940379403794038 ; true_guesses = 15; false_guesses = 354
+Results for fold 2 of tag hashing:  Accuracy = 0.967479674796748 ; true_guesses = 9; false_guesses = 360
+Results for fold 3 of tag hashing:  Accuracy = 0.9728997289972899 ; true_guesses = 5; false_guesses = 364
+Results for fold 4 of tag hashing:  Accuracy = 0.964769647696477 ; true_guesses = 6; false_guesses = 363
+Results for fold 5 of tag hashing:  Accuracy = 0.9320652173913043 ; true_guesses = 14; false_guesses = 354
+Results for fold 6 of tag hashing:  Accuracy = 0.9483695652173914 ; true_guesses = 12; false_guesses = 356
+Results for fold 7 of tag hashing:  Accuracy = 0.9429347826086957 ; true_guesses = 16; false_guesses = 352
+Results for fold 8 of tag hashing:  Accuracy = 0.9429347826086957 ; true_guesses = 14; false_guesses = 354
+Results for fold 9 of tag hashing:  Accuracy = 0.9429347826086957 ; true_guesses = 14; false_guesses = 354
+Average accuracy for tag hashing is 0.9497857016613646
+Beginning cross validation for tag implementation
+Results for fold 0 of tag implementation:  Accuracy = 0.6368563685636857 ; true_guesses = 152; false_guesses = 217
+Results for fold 1 of tag implementation:  Accuracy = 0.6178861788617886 ; true_guesses = 147; false_guesses = 222
+Results for fold 2 of tag implementation:  Accuracy = 0.6449864498644986 ; true_guesses = 101; false_guesses = 268
+Results for fold 3 of tag implementation:  Accuracy = 0.6422764227642277 ; true_guesses = 120; false_guesses = 249
+Results for fold 4 of tag implementation:  Accuracy = 0.6287262872628726 ; true_guesses = 131; false_guesses = 238
+Results for fold 5 of tag implementation:  Accuracy = 0.6766304347826086 ; true_guesses = 125; false_guesses = 243
+Results for fold 6 of tag implementation:  Accuracy = 0.7038043478260869 ; true_guesses = 113; false_guesses = 255
+Results for fold 7 of tag implementation:  Accuracy = 0.6793478260869565 ; true_guesses = 128; false_guesses = 240
+Results for fold 8 of tag implementation:  Accuracy = 0.6739130434782609 ; true_guesses = 133; false_guesses = 235
+Results for fold 9 of tag implementation:  Accuracy = 0.7065217391304348 ; true_guesses = 118; false_guesses = 250
+Average accuracy for tag implementation is 0.661094909862142
+Beginning cross validation for tag math
+Results for fold 0 of tag math:  Accuracy = 0.6829268292682927 ; true_guesses = 108; false_guesses = 261
+Results for fold 1 of tag math:  Accuracy = 0.7506775067750677 ; true_guesses = 100; false_guesses = 269
+Results for fold 2 of tag math:  Accuracy = 0.7127371273712737 ; true_guesses = 110; false_guesses = 259
+Results for fold 3 of tag math:  Accuracy = 0.7452574525745257 ; true_guesses = 91; false_guesses = 278
+Results for fold 4 of tag math:  Accuracy = 0.6829268292682927 ; true_guesses = 99; false_guesses = 270
+Results for fold 5 of tag math:  Accuracy = 0.7554347826086957 ; true_guesses = 79; false_guesses = 289
+Results for fold 6 of tag math:  Accuracy = 0.75 ; true_guesses = 85; false_guesses = 283
+Results for fold 7 of tag math:  Accuracy = 0.75 ; true_guesses = 76; false_guesses = 292
+Results for fold 8 of tag math:  Accuracy = 0.8152173913043478 ; true_guesses = 68; false_guesses = 300
+Results for fold 9 of tag math:  Accuracy = 0.7554347826086957 ; true_guesses = 67; false_guesses = 301
+Average accuracy for tag math is 0.7400612701779192
+Beginning cross validation for tag matrices
+Results for fold 0 of tag matrices:  Accuracy = 0.964769647696477 ; true_guesses = 8; false_guesses = 361
+Results for fold 1 of tag matrices:  Accuracy = 0.983739837398374 ; true_guesses = 0; false_guesses = 369
+Results for fold 2 of tag matrices:  Accuracy = 0.981029810298103 ; true_guesses = 5; false_guesses = 364
+Results for fold 3 of tag matrices:  Accuracy = 0.975609756097561 ; true_guesses = 5; false_guesses = 364
+Results for fold 4 of tag matrices:  Accuracy = 0.9728997289972899 ; true_guesses = 3; false_guesses = 366
+Results for fold 5 of tag matrices:  Accuracy = 0.9728260869565217 ; true_guesses = 2; false_guesses = 366
+Results for fold 6 of tag matrices:  Accuracy = 0.9755434782608695 ; true_guesses = 5; false_guesses = 363
+Results for fold 7 of tag matrices:  Accuracy = 0.9809782608695652 ; true_guesses = 0; false_guesses = 368
+Results for fold 8 of tag matrices:  Accuracy = 0.9809782608695652 ; true_guesses = 6; false_guesses = 362
+Results for fold 9 of tag matrices:  Accuracy = 0.9755434782608695 ; true_guesses = 2; false_guesses = 366
+Average accuracy for tag matrices is 0.9763918345705195
+Beginning cross validation for tag meet-in-the-middle
+Results for fold 0 of tag meet-in-the-middle:  Accuracy = 0.981029810298103 ; true_guesses = 7; false_guesses = 362
+Results for fold 1 of tag meet-in-the-middle:  Accuracy = 1.0 ; true_guesses = 0; false_guesses = 369
+Results for fold 2 of tag meet-in-the-middle:  Accuracy = 0.991869918699187 ; true_guesses = 1; false_guesses = 368
+Results for fold 3 of tag meet-in-the-middle:  Accuracy = 0.994579945799458 ; true_guesses = 2; false_guesses = 367
+Results for fold 4 of tag meet-in-the-middle:  Accuracy = 0.986449864498645 ; true_guesses = 0; false_guesses = 369
+Results for fold 5 of tag meet-in-the-middle:  Accuracy = 0.9836956521739131 ; true_guesses = 0; false_guesses = 368
+Results for fold 6 of tag meet-in-the-middle:  Accuracy = 0.9836956521739131 ; true_guesses = 6; false_guesses = 362
+Results for fold 7 of tag meet-in-the-middle:  Accuracy = 1.0 ; true_guesses = 0; false_guesses = 368
+Results for fold 8 of tag meet-in-the-middle:  Accuracy = 0.9864130434782609 ; true_guesses = 4; false_guesses = 364
+Results for fold 9 of tag meet-in-the-middle:  Accuracy = 0.9891304347826086 ; true_guesses = 1; false_guesses = 367
+Average accuracy for tag meet-in-the-middle is 0.989686432190409
+Beginning cross validation for tag numbertheory
+Results for fold 0 of tag numbertheory:  Accuracy = 0.8509485094850948 ; true_guesses = 54; false_guesses = 315
+Results for fold 1 of tag numbertheory:  Accuracy = 0.8699186991869918 ; true_guesses = 55; false_guesses = 314
+Results for fold 2 of tag numbertheory:  Accuracy = 0.8563685636856369 ; true_guesses = 55; false_guesses = 314
+Results for fold 3 of tag numbertheory:  Accuracy = 0.8997289972899729 ; true_guesses = 42; false_guesses = 327
+Results for fold 4 of tag numbertheory:  Accuracy = 0.8428184281842819 ; true_guesses = 59; false_guesses = 310
+Results for fold 5 of tag numbertheory:  Accuracy = 0.8668478260869565 ; true_guesses = 41; false_guesses = 327
+Results for fold 6 of tag numbertheory:  Accuracy = 0.875 ; true_guesses = 49; false_guesses = 319
+Results for fold 7 of tag numbertheory:  Accuracy = 0.8695652173913043 ; true_guesses = 41; false_guesses = 327
+Results for fold 8 of tag numbertheory:  Accuracy = 0.8804347826086957 ; true_guesses = 46; false_guesses = 322
+Results for fold 9 of tag numbertheory:  Accuracy = 0.8885869565217391 ; true_guesses = 33; false_guesses = 335
+Average accuracy for tag numbertheory is 0.8700217980440673
+Beginning cross validation for tag probabilities
+Results for fold 0 of tag probabilities:  Accuracy = 0.9566395663956639 ; true_guesses = 3; false_guesses = 366
+Results for fold 1 of tag probabilities:  Accuracy = 0.981029810298103 ; true_guesses = 3; false_guesses = 366
+Results for fold 2 of tag probabilities:  Accuracy = 0.9701897018970189 ; true_guesses = 8; false_guesses = 361
+Results for fold 3 of tag probabilities:  Accuracy = 0.983739837398374 ; true_guesses = 3; false_guesses = 366
+Results for fold 4 of tag probabilities:  Accuracy = 0.978319783197832 ; true_guesses = 5; false_guesses = 364
+Results for fold 5 of tag probabilities:  Accuracy = 0.9836956521739131 ; true_guesses = 3; false_guesses = 365
+Results for fold 6 of tag probabilities:  Accuracy = 0.9755434782608695 ; true_guesses = 16; false_guesses = 352
+Results for fold 7 of tag probabilities:  Accuracy = 0.9728260869565217 ; true_guesses = 10; false_guesses = 358
+Results for fold 8 of tag probabilities:  Accuracy = 0.9755434782608695 ; true_guesses = 9; false_guesses = 359
+Results for fold 9 of tag probabilities:  Accuracy = 0.967391304347826 ; true_guesses = 5; false_guesses = 363
+Average accuracy for tag probabilities is 0.9744918699186991
+Beginning cross validation for tag schedules
+Results for fold 0 of tag schedules:  Accuracy = 1.0 ; true_guesses = 0; false_guesses = 369
+Results for fold 1 of tag schedules:  Accuracy = 1.0 ; true_guesses = 0; false_guesses = 369
+Results for fold 2 of tag schedules:  Accuracy = 0.997289972899729 ; true_guesses = 1; false_guesses = 368
+Results for fold 3 of tag schedules:  Accuracy = 0.991869918699187 ; true_guesses = 0; false_guesses = 369
+Results for fold 4 of tag schedules:  Accuracy = 0.997289972899729 ; true_guesses = 0; false_guesses = 369
+Results for fold 5 of tag schedules:  Accuracy = 1.0 ; true_guesses = 0; false_guesses = 368
+Results for fold 6 of tag schedules:  Accuracy = 0.9972826086956522 ; true_guesses = 1; false_guesses = 367
+Results for fold 7 of tag schedules:  Accuracy = 0.9972826086956522 ; true_guesses = 0; false_guesses = 368
+Results for fold 8 of tag schedules:  Accuracy = 0.9972826086956522 ; true_guesses = 1; false_guesses = 367
+Results for fold 9 of tag schedules:  Accuracy = 1.0 ; true_guesses = 0; false_guesses = 368
+Average accuracy for tag schedules is 0.99782976905856
+Beginning cross validation for tag shortestpaths
+Results for fold 0 of tag shortestpaths:  Accuracy = 0.964769647696477 ; true_guesses = 12; false_guesses = 357
+Results for fold 1 of tag shortestpaths:  Accuracy = 0.94579945799458 ; true_guesses = 14; false_guesses = 355
+Results for fold 2 of tag shortestpaths:  Accuracy = 0.943089430894309 ; true_guesses = 12; false_guesses = 357
+Results for fold 3 of tag shortestpaths:  Accuracy = 0.962059620596206 ; true_guesses = 7; false_guesses = 362
+Results for fold 4 of tag shortestpaths:  Accuracy = 0.978319783197832 ; true_guesses = 6; false_guesses = 363
+Results for fold 5 of tag shortestpaths:  Accuracy = 0.9565217391304348 ; true_guesses = 14; false_guesses = 354
+Results for fold 6 of tag shortestpaths:  Accuracy = 0.9592391304347826 ; true_guesses = 13; false_guesses = 355
+Results for fold 7 of tag shortestpaths:  Accuracy = 0.9565217391304348 ; true_guesses = 13; false_guesses = 355
+Results for fold 8 of tag shortestpaths:  Accuracy = 0.9510869565217391 ; true_guesses = 11; false_guesses = 357
+Results for fold 9 of tag shortestpaths:  Accuracy = 0.9565217391304348 ; true_guesses = 12; false_guesses = 356
+Average accuracy for tag shortestpaths is 0.9573929244727231
+Beginning cross validation for tag sortings
+Results for fold 0 of tag sortings:  Accuracy = 0.8346883468834688 ; true_guesses = 25; false_guesses = 344
+Results for fold 1 of tag sortings:  Accuracy = 0.8644986449864499 ; true_guesses = 33; false_guesses = 336
+Results for fold 2 of tag sortings:  Accuracy = 0.8861788617886179 ; true_guesses = 22; false_guesses = 347
+Results for fold 3 of tag sortings:  Accuracy = 0.8644986449864499 ; true_guesses = 29; false_guesses = 340
+Results for fold 4 of tag sortings:  Accuracy = 0.8428184281842819 ; true_guesses = 31; false_guesses = 338
+Results for fold 5 of tag sortings:  Accuracy = 0.8831521739130435 ; true_guesses = 16; false_guesses = 352
+Results for fold 6 of tag sortings:  Accuracy = 0.8668478260869565 ; true_guesses = 30; false_guesses = 338
+Results for fold 7 of tag sortings:  Accuracy = 0.904891304347826 ; true_guesses = 25; false_guesses = 343
+Results for fold 8 of tag sortings:  Accuracy = 0.8260869565217391 ; true_guesses = 40; false_guesses = 328
+Results for fold 9 of tag sortings:  Accuracy = 0.8695652173913043 ; true_guesses = 23; false_guesses = 345
+Average accuracy for tag sortings is 0.8643226405090138
+Beginning cross validation for tag specialproblem
+Results for fold 0 of tag specialproblem:  Accuracy = 0.943089430894309 ; true_guesses = 50; false_guesses = 319
+Results for fold 1 of tag specialproblem:  Accuracy = 0.962059620596206 ; true_guesses = 22; false_guesses = 347
+Results for fold 2 of tag specialproblem:  Accuracy = 0.9566395663956639 ; true_guesses = 20; false_guesses = 349
+Results for fold 3 of tag specialproblem:  Accuracy = 0.9539295392953929 ; true_guesses = 15; false_guesses = 354
+Results for fold 4 of tag specialproblem:  Accuracy = 0.943089430894309 ; true_guesses = 29; false_guesses = 340
+Results for fold 5 of tag specialproblem:  Accuracy = 0.9347826086956522 ; true_guesses = 31; false_guesses = 337
+Results for fold 6 of tag specialproblem:  Accuracy = 0.9211956521739131 ; true_guesses = 40; false_guesses = 328
+Results for fold 7 of tag specialproblem:  Accuracy = 0.9021739130434783 ; true_guesses = 29; false_guesses = 339
+Results for fold 8 of tag specialproblem:  Accuracy = 0.9021739130434783 ; true_guesses = 28; false_guesses = 340
+Results for fold 9 of tag specialproblem:  Accuracy = 0.9320652173913043 ; true_guesses = 25; false_guesses = 343
+Average accuracy for tag specialproblem is 0.9351198892423707
+Beginning cross validation for tag strings
+Results for fold 0 of tag strings:  Accuracy = 0.8753387533875339 ; true_guesses = 50; false_guesses = 319
+Results for fold 1 of tag strings:  Accuracy = 0.943089430894309 ; true_guesses = 33; false_guesses = 336
+Results for fold 2 of tag strings:  Accuracy = 0.948509485094851 ; true_guesses = 24; false_guesses = 345
+Results for fold 3 of tag strings:  Accuracy = 0.9566395663956639 ; true_guesses = 21; false_guesses = 348
+Results for fold 4 of tag strings:  Accuracy = 0.940379403794038 ; true_guesses = 28; false_guesses = 341
+Results for fold 5 of tag strings:  Accuracy = 0.907608695652174 ; true_guesses = 46; false_guesses = 322
+Results for fold 6 of tag strings:  Accuracy = 0.9157608695652174 ; true_guesses = 30; false_guesses = 338
+Results for fold 7 of tag strings:  Accuracy = 0.9211956521739131 ; true_guesses = 35; false_guesses = 333
+Results for fold 8 of tag strings:  Accuracy = 0.904891304347826 ; true_guesses = 48; false_guesses = 320
+Results for fold 9 of tag strings:  Accuracy = 0.9103260869565217 ; true_guesses = 39; false_guesses = 329
+Average accuracy for tag strings is 0.9223739248262047
+Beginning cross validation for tag stringsuffixstructures
+Results for fold 0 of tag stringsuffixstructures:  Accuracy = 0.962059620596206 ; true_guesses = 12; false_guesses = 357
+Results for fold 1 of tag stringsuffixstructures:  Accuracy = 0.967479674796748 ; true_guesses = 10; false_guesses = 359
+Results for fold 2 of tag stringsuffixstructures:  Accuracy = 0.978319783197832 ; true_guesses = 5; false_guesses = 364
+Results for fold 3 of tag stringsuffixstructures:  Accuracy = 0.989159891598916 ; true_guesses = 5; false_guesses = 364
+Results for fold 4 of tag stringsuffixstructures:  Accuracy = 0.975609756097561 ; true_guesses = 6; false_guesses = 363
+Results for fold 5 of tag stringsuffixstructures:  Accuracy = 0.9619565217391305 ; true_guesses = 9; false_guesses = 359
+Results for fold 6 of tag stringsuffixstructures:  Accuracy = 0.9782608695652174 ; true_guesses = 5; false_guesses = 363
+Results for fold 7 of tag stringsuffixstructures:  Accuracy = 0.9728260869565217 ; true_guesses = 9; false_guesses = 359
+Results for fold 8 of tag stringsuffixstructures:  Accuracy = 0.9646739130434783 ; true_guesses = 11; false_guesses = 357
+Results for fold 9 of tag stringsuffixstructures:  Accuracy = 0.970108695652174 ; true_guesses = 9; false_guesses = 359
+Average accuracy for tag stringsuffixstructures is 0.9720454813243785
+Beginning cross validation for tag ternarysearch
+Results for fold 0 of tag ternarysearch:  Accuracy = 0.991869918699187 ; true_guesses = 2; false_guesses = 367
+Results for fold 1 of tag ternarysearch:  Accuracy = 0.989159891598916 ; true_guesses = 0; false_guesses = 369
+Results for fold 2 of tag ternarysearch:  Accuracy = 0.994579945799458 ; true_guesses = 1; false_guesses = 368
+Results for fold 3 of tag ternarysearch:  Accuracy = 0.997289972899729 ; true_guesses = 1; false_guesses = 368
+Results for fold 4 of tag ternarysearch:  Accuracy = 0.989159891598916 ; true_guesses = 0; false_guesses = 369
+Results for fold 5 of tag ternarysearch:  Accuracy = 0.9918478260869565 ; true_guesses = 1; false_guesses = 367
+Results for fold 6 of tag ternarysearch:  Accuracy = 0.9836956521739131 ; true_guesses = 3; false_guesses = 365
+Results for fold 7 of tag ternarysearch:  Accuracy = 1.0 ; true_guesses = 0; false_guesses = 368
+Results for fold 8 of tag ternarysearch:  Accuracy = 0.9918478260869565 ; true_guesses = 1; false_guesses = 367
+Results for fold 9 of tag ternarysearch:  Accuracy = 0.9891304347826086 ; true_guesses = 1; false_guesses = 367
+Average accuracy for tag ternarysearch is 0.9918581359726641
+Beginning cross validation for tag trees
+Results for fold 0 of tag trees:  Accuracy = 0.964769647696477 ; true_guesses = 11; false_guesses = 358
+Results for fold 1 of tag trees:  Accuracy = 0.9376693766937669 ; true_guesses = 30; false_guesses = 339
+Results for fold 2 of tag trees:  Accuracy = 0.943089430894309 ; true_guesses = 26; false_guesses = 343
+Results for fold 3 of tag trees:  Accuracy = 0.943089430894309 ; true_guesses = 23; false_guesses = 346
+Results for fold 4 of tag trees:  Accuracy = 0.9295392953929539 ; true_guesses = 30; false_guesses = 339
+Results for fold 5 of tag trees:  Accuracy = 0.9184782608695652 ; true_guesses = 30; false_guesses = 338
+Results for fold 6 of tag trees:  Accuracy = 0.9293478260869565 ; true_guesses = 29; false_guesses = 339
+Results for fold 7 of tag trees:  Accuracy = 0.9184782608695652 ; true_guesses = 42; false_guesses = 326
+Results for fold 8 of tag trees:  Accuracy = 0.8885869565217391 ; true_guesses = 38; false_guesses = 330
+Results for fold 9 of tag trees:  Accuracy = 0.9021739130434783 ; true_guesses = 38; false_guesses = 330
+Average accuracy for tag trees is 0.9275222398963121
+Beginning cross validation for tag twopointers
+Results for fold 0 of tag twopointers:  Accuracy = 0.9376693766937669 ; true_guesses = 15; false_guesses = 354
+Results for fold 1 of tag twopointers:  Accuracy = 0.9295392953929539 ; true_guesses = 9; false_guesses = 360
+Results for fold 2 of tag twopointers:  Accuracy = 0.924119241192412 ; true_guesses = 17; false_guesses = 352
+Results for fold 3 of tag twopointers:  Accuracy = 0.943089430894309 ; true_guesses = 13; false_guesses = 356
+Results for fold 4 of tag twopointers:  Accuracy = 0.943089430894309 ; true_guesses = 6; false_guesses = 363
+Results for fold 5 of tag twopointers:  Accuracy = 0.9266304347826086 ; true_guesses = 18; false_guesses = 350
+Results for fold 6 of tag twopointers:  Accuracy = 0.9239130434782609 ; true_guesses = 11; false_guesses = 357
+Results for fold 7 of tag twopointers:  Accuracy = 0.9320652173913043 ; true_guesses = 14; false_guesses = 354
+Results for fold 8 of tag twopointers:  Accuracy = 0.9021739130434783 ; true_guesses = 24; false_guesses = 344
+Results for fold 9 of tag twopointers:  Accuracy = 0.9184782608695652 ; true_guesses = 19; false_guesses = 349
+Average accuracy for tag twopointers is 0.9280767644632967

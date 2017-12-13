@@ -51,7 +51,7 @@ def multinomial_naive_bayes_classifier():
     print("Average accuracy is {}".format(sum(accuracies) / float(len(accuracies))))
 
 def bernoulli_naive_bayes_classifier():
-    X, Y = tfidf.get_tfidf_scores_and_labels_from_short_csv("words_all_with_tags_one_entry_per_problem.csv")
+    X, Y = tfidf.get_tfidf_scores_and_labels_from_short_csv("words_all_no_repeats.csv")
 
     all_tags = set()
     for y in Y:

@@ -46,7 +46,6 @@ def get_tfidf_scores_and_labels_from_short_csv(input_file):
     line_num = 0
     x_lines = []
     y_lines = []
-    z_lines = []
 
     with open(input_file) as file:
         for line in file.readlines():
@@ -57,7 +56,9 @@ def get_tfidf_scores_and_labels_from_short_csv(input_file):
                     bag_of_words.add(word)
 
                 x_lines.append(x)
-                y_lines.append(y.split("/"))
+
+                raw = ''.join([i if i.isalnum() or i == '-' or i == '/' else '' for i in y])
+                y_lines.append(raw.split("/"))
             line_num += 1
 
     bag_of_words = list(sorted(bag_of_words))
