@@ -74,8 +74,30 @@ course, recent and future problems are not included.
 
 problem.py contains a class object that will represent fields for a single problem.
 
+
+--------------------------
+Raw text extraction
+
 To load all problems, see the util.loadAllProblems() function. This will parse the raw html from the scraper output
 into a set of problem objects.
+
+The problem object contains many fields, but we did not end up using all of them. Of course, the most important field
+is the one that contains a list of tags for the problem. For features, we decided to concentrate primarily
+on the text fields, including 'title', 'main_text', 'input', and 'output'. We removed unicode characters and special
+characters, and put all the text into a long block for each problem. This was the raw data for each problem, but we
+refined it into a more useful feature vector, which is described next.
+
+--------------------------
+TF-IDF
+
+Extracting useful features from a document can be challenging. One obvious option would be to count the occurrences of
+each word and use those counts as the features. A possible concern with this problem with this is that some words may
+occur very frequently in all documents, and thus have very little meaning. Examples are words like 'the' or 'and'.
+Instead, we used TF-IDF, which stands for "term frequency - inverse document frequency". This looks at the entire
+dataset and weights a word's 'usefulness' based on how many times it appears in the document (the TF), but decreases
+the weight of the word if it appears in many of the documents. Words that appear very frequently in one document but
+infrequently in others would tend to have a high weight. TF-IDF outputs a useful feature vector for each problem
+that we feed into other learning algorithms.
 
 --------------------------
 Bernoulli Naive Bayes
@@ -102,3 +124,4 @@ create 'custom' tags groups that, more or less, combine related tags together. A
 This 'all_math' tag occurs %30 of the time, which at least gives us a way to evaluate a few more balanced
 tags. With the common custom tags, the naive_bayes learner improves over "randomly guessing" by a couple of percentage
 points, which is not very significant.
+
