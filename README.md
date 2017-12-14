@@ -18,7 +18,7 @@ Requires Python 3, recommended use is Python 3.5.  We also recommend you use a v
 
 (via Anaconda shell)
 ```
-  $ conda create -n python3.5 python=3.5 
+  $ conda create -n python3.5 python=3.5
 ```
 
 Then to activate the python virtual environment, run
@@ -125,3 +125,10 @@ This 'all_math' tag occurs %30 of the time, which at least gives us a way to eva
 tags. With the common custom tags, the naive_bayes learner improves over "randomly guessing" by a couple of percentage
 points, which is not very significant.
 
+--------------------------
+LSTM (Long Short Term Memory RNN)
+
+We used a keras implementation LSTM in order to predict tags for the codeforce problems. Keras uses a tensorflow backend,
+but is a useful wrapper to use to make it easier.
+
+We created a seperate LSTM for each tag in our dataset. Our input to the LSTM were individual words in the problem statement for the codeforce problems. We vectorized the problem statement, and fed each word recurrently into each new cycle of the Recurrent Neural Network. We trained it on the final output prediction, judging its correctness by either saying that it was or was not actually a part of that tag group. 
