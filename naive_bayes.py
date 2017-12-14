@@ -3,6 +3,7 @@ import tfidf
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.naive_bayes import BernoulliNB
 from sklearn.model_selection import KFold
+import util
 
 num_splits = 10
 
@@ -51,6 +52,10 @@ def multinomial_naive_bayes_classifier():
     print("Average accuracy is {}".format(sum(accuracies) / float(len(accuracies))))
 
 def bernoulli_naive_bayes_classifier():
+    full_outupt_str = "tag, accuracy, occurrence\n"
+    csvLines = util.loadAllProblemsFromCSV("words_all_no_repeats.csv")
+    tag_freq = util.getTagFrequenciesFromCondensedCSV(csvLines)
+
     X, Y = tfidf.get_tfidf_scores_and_labels_from_short_csv("words_all_no_repeats.csv")
 
     all_tags = set()
@@ -108,11 +113,20 @@ def bernoulli_naive_bayes_classifier():
                 test_num += 1
             accuracy = correct / (correct + incorrect)
             accuracies.append(accuracy)
+
+
+
             print("Results for fold {} of tag {}:  Accuracy = {} ; true_guesses = {}; false_guesses = {}"
                   .format(fold_num, tag,  accuracy, true_guess_count, false_guess_count))
 
+
             fold_num += 1
         print("Average accuracy for tag {} is {}".format(tag, sum(accuracies) / float(len(accuracies))))
+        full_outupt_str += "{},{},{}\n".format(tag, sum(accuracies) / float(len(accuracies)), tag_freq[tag])
+
+
+    with open('naive_bayes_results.csv', 'w') as outfile:
+        outfile.write(full_outupt_str)
 
 if __name__ == '__main__':
     #multinomial_naive_bayes_classifier()
