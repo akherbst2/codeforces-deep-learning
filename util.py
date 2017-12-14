@@ -284,7 +284,7 @@ def writeTagFrequencies(csv_list):
             file.write(str(tup) + "\n")
 
 #Outputs sorted list of tag frequencies to file. This one assumes the condensed csv form
-def writeTagFrequencies(csv_list):
+def writeTagFrequenciesFromCondensedCSV(csv_list):
     tag_index = 1
     num_problems_with_tags = 0
 
@@ -309,7 +309,26 @@ def writeTagFrequencies(csv_list):
         for tup in tups:
             file.write(str(tup) + "\n")
 
+"""Return a Counter of tag -> frequency"""
+def getTagFrequenciesFromCondensedCSV(csv_list):
+    tag_index = 1
+    num_problems_with_tags = 0
 
+    counts = Counter()
+    for problem in csv_list:
+        raw = problem[tag_index]
+        raw = ''.join([i if i.isalnum() or i == '-' or i == '/' else '' for i in raw])
+        tags = raw.split("/")
+
+        if len(raw) == 0: #Don't count problems that don't have any tags.
+            continue
+        num_problems_with_tags += 1
+        for tag in tags:
+            counts[tag] += 1
+
+    for k,v in counts.items():
+        counts[k] /= num_problems_with_tags
+    return counts
 """
 A main that acts as a sandbox for the above functions.
 """
