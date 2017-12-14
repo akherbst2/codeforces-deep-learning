@@ -2,7 +2,7 @@
 # Codeforces Learner
 
 ## Intro
-Watch our explanation here: https://www.youtube.com/watch?v=yBkq6accrlo
+[Watch our explanation here](https://www.youtube.com/watch?v=yBkq6accrlo)
 
 The goal of our project was to extract labels from a set of coding competition problems found from codeforces.com.  We chose this website in particular because this website has the most problems, and the format of the website makes it simple to extract text from.  We hope to identify problems of a certain type by learning the sentence structure and wording of 36 different problem types.
 
