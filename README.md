@@ -16,6 +16,11 @@ In addition, we also recommend studying graphical models as a way to represent t
 
 We also recommend trying to guess the "Difficulty Level" of a problem.  Coding problems on other websites are often rated on a scale from 1-10, in order of difficulty.  We feel that this may yield more consistent results, due to having a larger and continuous data set.
 
+Our LSTM results:
+![alt text](codeforces-deep-learning/lstm_acc.png)
+Our Naive Bayes Results:
+![alt text](codeforces-deep-learning/naive_bayes_acc.png)
+
 ## Methods
 LSTM (Long Short Term Memory RNN)		
 
